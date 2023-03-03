@@ -31,3 +31,10 @@ SHOW TABLES;
 
 DESCRIBE coworkers;
 
+/* ----- Daten -----*/
+INSERT INTO coworkers (firstName,location,age,computer) VALUES ("Max","office",35,"PC");
+INSERT INTO coworkers (firstName,location,age,computer) VALUES ("Gani","pool",36,"iPad");
+INSERT INTO coworkers (firstName,location,age,computer) VALUES ("Sohrab","bed",26,"Mac");
+
+/* ----- Inhalt der Tabelle anzeigen -----*/
+SELECT * FROM coworkers;
